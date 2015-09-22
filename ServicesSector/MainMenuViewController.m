@@ -7,6 +7,7 @@
 //
 
 #import "MainMenuViewController.h"
+#import "SSProfileViewController.h"
 
 @interface MainMenuViewController ()
 
@@ -22,6 +23,15 @@
     [[SlideNavigationController sharedInstance] popToRootAndSwitchToViewController:nil withSlideOutAnimation:NO andCompletion:^{
         
     }];
+}
+
+- (IBAction)searchClick:(id)sender {
+    
+}
+
+- (IBAction)profileClick:(id)sender {
+    SSProfileViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"SSProfileViewController"];
+    [[SlideNavigationController sharedInstance] popToRootAndSwitchToViewController:vc withSlideOutAnimation:NO andCompletion:nil];
 }
 
 @end
