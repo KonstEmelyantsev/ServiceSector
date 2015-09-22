@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "MainMenuViewController.h"
+#import "SlideNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,18 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main"
+                                                             bundle: nil];
+    
+    MainMenuViewController *leftMenu = (MainMenuViewController*)[mainStoryboard
+                                                                 instantiateViewControllerWithIdentifier: @"MainMenuViewController"];
+    
+    [SlideNavigationController sharedInstance].leftMenu = leftMenu;
+    [SlideNavigationController sharedInstance].menuRevealAnimationDuration = .18;
+    
+    [SlideNavigationController sharedInstance].enableShadow = YES;
+    
     return YES;
 }
 

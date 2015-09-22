@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SSLoginViewController.h
 //  ServicesSector
 //
 //  Created by KonstEmelyantsev on 9/22/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SSLoginViewController : UIViewController
 
 @end
-
