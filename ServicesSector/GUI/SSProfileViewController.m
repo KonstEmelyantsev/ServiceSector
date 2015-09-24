@@ -10,5 +10,11 @@
 
 @implementation SSProfileViewController 
 
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    self.navigationItem.title = @"Личный Кабинет";
+}
+
 
 @end

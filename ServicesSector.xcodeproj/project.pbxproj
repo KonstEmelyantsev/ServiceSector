@@ -238,8 +238,8 @@
 		E7E12D5A1BB15A630092A747 /* GUI */ = {
 			isa = PBXGroup;
 			children = (
-				E7CA3BA81BB3F6D400CB65E1 /* Auth */,
 				E7CA3BA31BB3F62100CB65E1 /* Base */,
+				E7CA3BA81BB3F6D400CB65E1 /* Auth */,
 				E7CA3B9F1BB3F37400CB65E1 /* Search */,
 				E7E12D5B1BB15A630092A747 /* SSProfileViewController.h */,
 				E7E12D5C1BB15A630092A747 /* SSProfileViewController.m */,

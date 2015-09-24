@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SSBaseViewController.h"
+#import "SlideNavigationController.h"
 
-@interface SSSearchViewController : SSBaseViewController
+@interface SSSearchViewController : UITabBarController <SlideNavigationControllerDelegate>
 
 @end
