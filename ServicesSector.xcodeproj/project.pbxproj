@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E7CA3BA21BB3F38800CB65E1 /* SSSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CA3BA11BB3F38800CB65E1 /* SSSearchViewController.m */; };
+		E7CA3BA61BB3F62F00CB65E1 /* SSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CA3BA51BB3F62F00CB65E1 /* SSBaseViewController.m */; };
+		E7CA3BAB1BB3F6D400CB65E1 /* SSLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CA3BAA1BB3F6D400CB65E1 /* SSLoginViewController.m */; };
 		E7E12D181BB14F7D0092A747 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E12D171BB14F7D0092A747 /* main.m */; };
 		E7E12D1B1BB14F7D0092A747 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E12D1A1BB14F7D0092A747 /* AppDelegate.m */; };
 		E7E12D1E1BB14F7D0092A747 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E12D1D1BB14F7D0092A747 /* MainMenuViewController.m */; };
@@ -23,7 +26,6 @@
 		E7E12D551BB1571F0092A747 /* menu-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E12D4C1BB1571F0092A747 /* menu-button@2x.png */; };
 		E7E12D561BB1571F0092A747 /* SlideNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E12D4E1BB1571F0092A747 /* SlideNavigationController.m */; };
 		E7E12D5D1BB15A630092A747 /* SSProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E12D5C1BB15A630092A747 /* SSProfileViewController.m */; };
-		E7E12D601BB15B200092A747 /* SSLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E12D5F1BB15B200092A747 /* SSLoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +39,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E7CA3BA01BB3F38800CB65E1 /* SSSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSSearchViewController.h; sourceTree = "<group>"; };
+		E7CA3BA11BB3F38800CB65E1 /* SSSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSSearchViewController.m; sourceTree = "<group>"; };
+		E7CA3BA41BB3F62F00CB65E1 /* SSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSBaseViewController.h; sourceTree = "<group>"; };
+		E7CA3BA51BB3F62F00CB65E1 /* SSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSBaseViewController.m; sourceTree = "<group>"; };
+		E7CA3BA91BB3F6D400CB65E1 /* SSLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLoginViewController.h; sourceTree = "<group>"; };
+		E7CA3BAA1BB3F6D400CB65E1 /* SSLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLoginViewController.m; sourceTree = "<group>"; };
 		E7E12D121BB14F7D0092A747 /* ServicesSector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ServicesSector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E12D161BB14F7D0092A747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7E12D171BB14F7D0092A747 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E7E12D191BB14F7D0092A747 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E7E12D1A1BB14F7D0092A747 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E7E12D1C1BB14F7D0092A747 /* MainMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
-		E7E12D1D1BB14F7D0092A747 /* MainMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		E7E12D1C1BB14F7D0092A747 /* MainMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainMenuViewController.h; path = ../MainMenuViewController.h; sourceTree = "<group>"; };
+		E7E12D1D1BB14F7D0092A747 /* MainMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainMenuViewController.m; path = ../MainMenuViewController.m; sourceTree = "<group>"; };
 		E7E12D201BB14F7D0092A747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E7E12D221BB14F7D0092A747 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E7E12D251BB14F7D0092A747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -67,8 +75,6 @@
 		E7E12D4E1BB1571F0092A747 /* SlideNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationController.m; sourceTree = "<group>"; };
 		E7E12D5B1BB15A630092A747 /* SSProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSProfileViewController.h; sourceTree = "<group>"; };
 		E7E12D5C1BB15A630092A747 /* SSProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSProfileViewController.m; sourceTree = "<group>"; };
-		E7E12D5E1BB15B200092A747 /* SSLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLoginViewController.h; sourceTree = "<group>"; };
-		E7E12D5F1BB15B200092A747 /* SSLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E7CA3B9F1BB3F37400CB65E1 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				E7CA3BA01BB3F38800CB65E1 /* SSSearchViewController.h */,
+				E7CA3BA11BB3F38800CB65E1 /* SSSearchViewController.m */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		E7CA3BA31BB3F62100CB65E1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E7CA3BA41BB3F62F00CB65E1 /* SSBaseViewController.h */,
+				E7CA3BA51BB3F62F00CB65E1 /* SSBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		E7CA3BA81BB3F6D400CB65E1 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				E7CA3BA91BB3F6D400CB65E1 /* SSLoginViewController.h */,
+				E7CA3BAA1BB3F6D400CB65E1 /* SSLoginViewController.m */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
 		E7E12D091BB14F7D0092A747 = {
 			isa = PBXGroup;
 			children = (
@@ -110,12 +143,10 @@
 		E7E12D141BB14F7D0092A747 /* ServicesSector */ = {
 			isa = PBXGroup;
 			children = (
-				E7E12D5A1BB15A630092A747 /* GUI */,
 				E7E12D3B1BB1571F0092A747 /* 3rdParty */,
+				E7E12D5A1BB15A630092A747 /* GUI */,
 				E7E12D191BB14F7D0092A747 /* AppDelegate.h */,
 				E7E12D1A1BB14F7D0092A747 /* AppDelegate.m */,
-				E7E12D1C1BB14F7D0092A747 /* MainMenuViewController.h */,
-				E7E12D1D1BB14F7D0092A747 /* MainMenuViewController.m */,
 				E7E12D1F1BB14F7D0092A747 /* Main.storyboard */,
 				E7E12D221BB14F7D0092A747 /* Images.xcassets */,
 				E7E12D241BB14F7D0092A747 /* LaunchScreen.xib */,
@@ -207,10 +238,13 @@
 		E7E12D5A1BB15A630092A747 /* GUI */ = {
 			isa = PBXGroup;
 			children = (
+				E7CA3BA81BB3F6D400CB65E1 /* Auth */,
+				E7CA3BA31BB3F62100CB65E1 /* Base */,
+				E7CA3B9F1BB3F37400CB65E1 /* Search */,
 				E7E12D5B1BB15A630092A747 /* SSProfileViewController.h */,
 				E7E12D5C1BB15A630092A747 /* SSProfileViewController.m */,
-				E7E12D5E1BB15B200092A747 /* SSLoginViewController.h */,
-				E7E12D5F1BB15B200092A747 /* SSLoginViewController.m */,
+				E7E12D1C1BB14F7D0092A747 /* MainMenuViewController.h */,
+				E7E12D1D1BB14F7D0092A747 /* MainMenuViewController.m */,
 			);
 			path = GUI;
 			sourceTree = "<group>";
@@ -319,13 +353,15 @@
 			files = (
 				E7E12D561BB1571F0092A747 /* SlideNavigationController.m in Sources */,
 				E7E12D501BB1571F0092A747 /* SlideNavigationContorllerAnimatorScale.m in Sources */,
+				E7CA3BA61BB3F62F00CB65E1 /* SSBaseViewController.m in Sources */,
 				E7E12D511BB1571F0092A747 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */,
 				E7E12D1E1BB14F7D0092A747 /* MainMenuViewController.m in Sources */,
 				E7E12D1B1BB14F7D0092A747 /* AppDelegate.m in Sources */,
 				E7E12D4F1BB1571F0092A747 /* SlideNavigationContorllerAnimatorFade.m in Sources */,
+				E7CA3BA21BB3F38800CB65E1 /* SSSearchViewController.m in Sources */,
 				E7E12D181BB14F7D0092A747 /* main.m in Sources */,
-				E7E12D601BB15B200092A747 /* SSLoginViewController.m in Sources */,
 				E7E12D531BB1571F0092A747 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */,
+				E7CA3BAB1BB3F6D400CB65E1 /* SSLoginViewController.m in Sources */,
 				E7E12D5D1BB15A630092A747 /* SSProfileViewController.m in Sources */,
 				E7E12D521BB1571F0092A747 /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
 			);
@@ -524,6 +560,7 @@
 				E7E12D371BB14F7D0092A747 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7E12D381BB14F7D0092A747 /* Build configuration list for PBXNativeTarget "ServicesSectorTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +569,7 @@
 				E7E12D3A1BB14F7D0092A747 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

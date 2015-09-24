@@ -10,14 +10,5 @@
 
 @implementation SSProfileViewController 
 
-#pragma mark - SlideNavigationController Methods -
-
-- (BOOL)slideNavigationControllerShouldDisplayLeftMenu {
-    return YES;
-}
-
-- (BOOL)slideNavigationControllerShouldDisplayRightMenu {
-    return NO;
-}
 
 @end

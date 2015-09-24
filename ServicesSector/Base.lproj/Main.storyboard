@@ -13,11 +13,11 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pZZ-TH-STH">
-                                <rect key="frame" x="16" y="518" width="288" height="30"/>
+                                <rect key="frame" x="16" y="686" width="382" height="30"/>
                                 <color key="backgroundColor" red="0.0" green="0.99215692280000001" blue="0.93333339689999995" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="T3S-U1-ZcJ"/>
@@ -28,7 +28,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="logoutClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mmt-h0-KFG"/>
+                                    <action selector="logoutClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aKU-LB-vfd"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="777-c7-kBh">
@@ -39,7 +39,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Имя" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZXd-Xc-s10">
-                                <rect key="frame" x="159" y="56" width="145" height="21"/>
+                                <rect key="frame" x="159" y="56" width="239" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="uAd-Zc-HhV"/>
                                 </constraints>
@@ -48,7 +48,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Фамилия" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e3U-vJ-s8w">
-                                <rect key="frame" x="189" y="85" width="115" height="21"/>
+                                <rect key="frame" x="189" y="85" width="209" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="835-0x-XT8"/>
                                 </constraints>
@@ -66,7 +66,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="searchClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cpI-r6-g3D"/>
+                                    <action selector="navigationClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aqu-XI-rQJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oPb-iT-U0r" userLabel="profileButton">
@@ -75,7 +75,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="profileClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fEp-sU-oD1"/>
+                                    <action selector="navigationClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R0J-vc-K43"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -96,10 +96,16 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="htr-oX-EBH"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="exitButton" destination="pZZ-TH-STH" id="BA9-vZ-7lR"/>
+                        <outlet property="profileButton" destination="oPb-iT-U0r" id="oki-Qx-wzk"/>
+                        <outlet property="searchButton" destination="RAp-EZ-KKk" id="cqo-9x-f49"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-352" y="870"/>
+            <point key="canvasLocation" x="-370" y="904"/>
         </scene>
         <!--Slide Navigation Controller-->
         <scene sceneID="cQ7-l5-pEn">
@@ -117,7 +123,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bwf-we-D6a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-352" y="174"/>
+            <point key="canvasLocation" x="-430" y="-4"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="Rfk-gC-7ZZ">
@@ -128,7 +134,7 @@
                         <viewControllerLayoutGuide type="bottom" id="oMF-A0-2nw"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="hUO-D2-e3c">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0zd-pj-0sz">
@@ -147,10 +153,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="ZAY-dz-sa1"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kmz-7k-AsW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="82" y="176"/>
+            <point key="canvasLocation" x="82" y="80"/>
         </scene>
         <!--Profile View Controller-->
         <scene sceneID="sZZ-qh-fgv">
@@ -161,7 +168,7 @@
                         <viewControllerLayoutGuide type="bottom" id="dp2-52-hkA"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="RWF-fr-qcU">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Profile" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M97-SL-QdF">
@@ -173,10 +180,30 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gu5-2K-Rwe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="82" y="870"/>
+            <point key="canvasLocation" x="129" y="904"/>
+        </scene>
+        <!--Search View Controller-->
+        <scene sceneID="rpj-cX-sTb">
+            <objects>
+                <viewController storyboardIdentifier="SSSearchViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="CbK-Ae-qVe" customClass="SSSearchViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OuA-AD-6gC"/>
+                        <viewControllerLayoutGuide type="bottom" id="7DC-1G-MX4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Xtd-Ct-Urf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eIJ-rT-bbg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="568" y="904"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

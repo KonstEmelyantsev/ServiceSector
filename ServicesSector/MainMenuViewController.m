@@ -8,8 +8,13 @@
 
 #import "MainMenuViewController.h"
 #import "SSProfileViewController.h"
+#import "SSSearchViewController.h"
 
 @interface MainMenuViewController ()
+
+@property (weak, nonatomic) IBOutlet UIButton *searchButton;
+@property (weak, nonatomic) IBOutlet UIButton *exitButton;
+@property (weak, nonatomic) IBOutlet UIButton *profileButton;
 
 @end
 
@@ -20,17 +25,17 @@
 }
 
 - (IBAction)logoutClick:(id)sender {
-    [[SlideNavigationController sharedInstance] popToRootAndSwitchToViewController:nil withSlideOutAnimation:NO andCompletion:^{
-        
-    }];
+    [[SlideNavigationController sharedInstance] popToRootAndSwitchToViewController:nil withSlideOutAnimation:NO andCompletion:nil];
 }
 
-- (IBAction)searchClick:(id)sender {
-    
-}
-
-- (IBAction)profileClick:(id)sender {
-    SSProfileViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"SSProfileViewController"];
+- (IBAction)navigationClick:(id)sender {
+    NSString *vcId;
+    if(sender == self.searchButton) {
+        vcId = @"SSSearchViewController";
+    } else if(sender == self.profileButton){
+        vcId = @"SSProfileViewController";
+    }
+    UIViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:vcId];
     [[SlideNavigationController sharedInstance] popToRootAndSwitchToViewController:vc withSlideOutAnimation:NO andCompletion:nil];
 }
 
