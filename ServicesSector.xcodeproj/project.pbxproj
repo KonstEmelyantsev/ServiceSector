@@ -10,6 +10,7 @@
 		E7CA3BA21BB3F38800CB65E1 /* SSSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CA3BA11BB3F38800CB65E1 /* SSSearchViewController.m */; };
 		E7CA3BA61BB3F62F00CB65E1 /* SSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CA3BA51BB3F62F00CB65E1 /* SSBaseViewController.m */; };
 		E7CA3BAB1BB3F6D400CB65E1 /* SSLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CA3BAA1BB3F6D400CB65E1 /* SSLoginViewController.m */; };
+		E7CA3BAE1BB3FCCC00CB65E1 /* SSListSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CA3BAD1BB3FCCC00CB65E1 /* SSListSearchViewController.m */; };
 		E7E12D181BB14F7D0092A747 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E12D171BB14F7D0092A747 /* main.m */; };
 		E7E12D1B1BB14F7D0092A747 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E12D1A1BB14F7D0092A747 /* AppDelegate.m */; };
 		E7E12D1E1BB14F7D0092A747 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E12D1D1BB14F7D0092A747 /* MainMenuViewController.m */; };
@@ -45,6 +46,8 @@
 		E7CA3BA51BB3F62F00CB65E1 /* SSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSBaseViewController.m; sourceTree = "<group>"; };
 		E7CA3BA91BB3F6D400CB65E1 /* SSLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLoginViewController.h; sourceTree = "<group>"; };
 		E7CA3BAA1BB3F6D400CB65E1 /* SSLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLoginViewController.m; sourceTree = "<group>"; };
+		E7CA3BAC1BB3FCCC00CB65E1 /* SSListSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSListSearchViewController.h; sourceTree = "<group>"; };
+		E7CA3BAD1BB3FCCC00CB65E1 /* SSListSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSListSearchViewController.m; sourceTree = "<group>"; };
 		E7E12D121BB14F7D0092A747 /* ServicesSector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ServicesSector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E12D161BB14F7D0092A747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7E12D171BB14F7D0092A747 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -100,6 +103,8 @@
 			children = (
 				E7CA3BA01BB3F38800CB65E1 /* SSSearchViewController.h */,
 				E7CA3BA11BB3F38800CB65E1 /* SSSearchViewController.m */,
+				E7CA3BAC1BB3FCCC00CB65E1 /* SSListSearchViewController.h */,
+				E7CA3BAD1BB3FCCC00CB65E1 /* SSListSearchViewController.m */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -351,6 +356,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7CA3BAE1BB3FCCC00CB65E1 /* SSListSearchViewController.m in Sources */,
 				E7E12D561BB1571F0092A747 /* SlideNavigationController.m in Sources */,
 				E7E12D501BB1571F0092A747 /* SlideNavigationContorllerAnimatorScale.m in Sources */,
 				E7CA3BA61BB3F62F00CB65E1 /* SSBaseViewController.m in Sources */,
